@@ -1,0 +1,31 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .lastView {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        text-align: left;
+        flex: 1;
+        height: 205px;
+        overflow-y: auto;
+        background: #fff;
+        display: inline-block;
+        border-top: 3px solid #39B54A;
+        width: 45%;
+        margin: 0px 0px 21px 17px;
+        margin-top: 0;
+        padding: 0px !important;
+        min-height: 261px;
+    }
+    .menu-image {
+        width: 73% !important;
+        background-size: cover;
+        background-color: #005A7C !important;
+        padding: 7px;
+        height: 42px !important;
+        border-radius: 50%;
+    }
+    .side-nav, .dashboard-content {
+        -ms-overflow-y: auto !important;
+    }
+    .headerToolbar {
+    width:29% !important;
+    }
+}
